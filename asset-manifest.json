@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-redux/static/css/main.e702253b.chunk.css",
+    "main.js": "/React-redux/static/js/main.ca0b41a8.chunk.js",
+    "main.js.map": "/React-redux/static/js/main.ca0b41a8.chunk.js.map",
+    "runtime~main.js": "/React-redux/static/js/runtime~main.bfbd25a1.js",
+    "runtime~main.js.map": "/React-redux/static/js/runtime~main.bfbd25a1.js.map",
+    "static/js/2.229aa132.chunk.js": "/React-redux/static/js/2.229aa132.chunk.js",
+    "static/js/2.229aa132.chunk.js.map": "/React-redux/static/js/2.229aa132.chunk.js.map",
+    "index.html": "/React-redux/index.html",
+    "precache-manifest.a68e6ee37a2af0c76dcbfb83a92b1113.js": "/React-redux/precache-manifest.a68e6ee37a2af0c76dcbfb83a92b1113.js",
+    "service-worker.js": "/React-redux/service-worker.js",
+    "static/css/main.e702253b.chunk.css.map": "/React-redux/static/css/main.e702253b.chunk.css.map",
+    "static/media/add.svg": "/React-redux/static/media/add.31af7c32.svg",
+    "static/media/delete.svg": "/React-redux/static/media/delete.77d53e31.svg",
+    "static/media/edit.svg": "/React-redux/static/media/edit.933499a0.svg",
+    "static/media/error.png": "/React-redux/static/media/error.2774f652.png"
+  }
+}
