@@ -1,53 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react'
+import { BrowserRouter, Route } from"react-router-dom"
+import Menu from './Menu'
+import Usuarios from './usuarios'
+import Publicaciones from './Publicaciones'
+import Tareas from './Tareas'
+import TareasGuardar from './Tareas/Guardar'
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      usuarios: [
-        {
-          nombre: 'jose',
-          correo: 'josepadron.go@gmail.com',
-          enlace: 'padronjose.com'
-        },
-        {
-          nombre: 'eric',
-          correo: 'ericrodrguez.go@gmail.com',
-          enlace: 'ericrodrguez.com'
-        }
-      ]
-    }
-  }
-
-  ponerFilas = () => (
-    this.state.usuarios.map((usuario) => (
-      <tr>
-        <td> {usuario.nombre} </td>
-        <td> {usuario.correo} </td>
-        <td> {usuario.enlace} </td>
-      </tr>
-    ))
-  );
-
-  render() {
-    return (
+const App = () => (
+  <BrowserRouter>
+    <Menu />
       <div className="margen">
-        <table className="tabla">
-          <thead>
-            <tr>
-              <th> Nombre </th>
-              <th> Correo </th>
-              <th> Enlace </th>
-            </tr>
-          </thead>
-
-          <tbody>
-            { this.ponerFilas() }
-          </tbody>
-        </table>
+        <Route exact path='/' component= {Usuarios} />
+        <Route exact path='/tareas' component= { Tareas } />
+        <Route exact path='/publicaciones/:key' component= { Publicaciones } />
+        <Route exact path='/tareas/guardar' component= { TareasGuardar } />
+        <Route exact path='/tareas/guardar/:usu_id/:tar_id' component= { TareasGuardar } />
       </div>
-    )
-  }
-}
+  </BrowserRouter>
+)
 
-export default App;
+export default App

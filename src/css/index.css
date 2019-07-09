@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  color: #253A46;
+  background-color: #f2f2f2;
+}
+
+.center {
+  text-align: center;
+}
+
+.rojo {
+  color: red;
+}
+
+.margen {
+  margin: 2em;
+}
+
+.tabla {
+  width: 100%;
+  text-align: left;
+}
+
+.tabla th {
+  font-size: 20px;
+}
+
+.tabla td {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+#menu {
+  background-color: #253A46;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#menu a {
+  color: #f2f2f2;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+.pub_titulo {
+  border-top: 2px solid #000;
+  cursor: pointer;
+}
+
+li {
+  margin: 1.2em 0;
+}
+
+.contenedor_tareas {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-bottom: 70px;
+}
+
+.contenedor_tareas div {
+  margin-top: 12px;
+}
+
+.m_left {
+  margin-left: 15px;
+}
+
+.m_right {
+  margin-right: 30px;
+}
+
+.usuario_btn {
+  width: 15px;
+  height: 15px;
+  color: red;
+}
+
+.nueva_tarea_btn {
+  text-decoration: none;
+  color: #253A46;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.guardar_btn {
+  text-decoration: none;
+  color: #253A46;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button {
+  border: 2px solid #253A46;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 626px  ) {
+  .margen {
+    margin: 50px 70px;
+  }
+}
